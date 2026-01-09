@@ -1,0 +1,11 @@
+{
+  "minio_path": "/mnt/storage/minio",
+  "gdrive_remote": "gdrive",
+  "gdrive_folder": "BackupMinIO",
+  "exclude": [
+    ".minio.sys/buckets/.usage-cache**",
+    ".minio.sys/tmp/**",
+    ".minio.sys/multipart/**",
+    "**xl.meta.bkp"
+  ]
+}
