@@ -21,4 +21,4 @@ rclone sync "$MINIO_PATH" "$REMOTE:$FOLDER" \
     --local-no-check-updated \
     --drive-chunk-size 64M \
     --log-file=minio-backup.log \
-    --v
+    -v
