@@ -38,3 +38,14 @@ jq --arg mp "$minio_path" \
    config.json > "$tmp" && mv "$tmp" config.json
 
 chmod +x backup.sh
+
+read -p "Apakah ingin menambahkan ke cronjob? (y/n): " set_cron
+if [[ "$set_cron" == "y" || "$set_cron" == "Y" ]]; then
+    read -p "Masukkan jadwal cron (contoh: 0 2 * * *): " cron_schedule
+    script_path=$(realpath backup.sh)
+    log_path=$(dirname "$script_path")/backup.log
+    
+    (crontab -l 2>/dev/null | grep -v "$script_path"; echo "$cron_schedule $script_path >> $log_path 2>&1") | crontab -
+    
+    echo "Cronjob berhasil ditambahkan. Log dapat dilihat di: $log_path"
+fi
