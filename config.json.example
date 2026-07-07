@@ -1,11 +1,14 @@
 {
-  "minio_path": "/mnt/storage/minio",
+  "minio_path": "/storage/cluster/minio",
   "gdrive_remote": "gdrive",
-  "gdrive_folder": "BackupMinIO",
+  "gdrive_folder": "Backups/MinIO",
+  "_keterangan_backup_mode": "Gunakan 'sync' (mirroring/hapus file cloud jika lokal dihapus), 'copy' (hanya tambah file baru ke cloud)",
+  "backup_mode": "copy",
   "exclude": [
     ".minio.sys/buckets/.usage-cache**",
     ".minio.sys/tmp/**",
     ".minio.sys/multipart/**",
-    "**xl.meta.bkp"
+    "**xl.meta.bkp",
+    ".minio.sys/logs/**"
   ]
 }

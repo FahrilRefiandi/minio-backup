@@ -1,0 +1,44 @@
+2026/07/07 14:39:04 INFO  : landing-page/public: Set directory modification time (using SetModTime)
+2026/07/07 14:39:05 INFO  : .minio.sys/buckets/.usage.json.bkp: Set directory modification time (using SetModTime)
+2026/07/07 14:39:06 INFO  : .minio.sys/buckets/.usage.json: Set directory modification time (using SetModTime)
+2026/07/07 14:39:09 INFO  : .minio.sys/logs/error/disk.lock: Copied (new)
+2026/07/07 14:39:10 INFO  : .minio.sys/buckets/.usage.json.bkp/xl.meta: Copied (replaced existing)
+2026/07/07 14:39:10 INFO  : .minio.sys/buckets/.usage.json/xl.meta: Copied (replaced existing)
+2026/07/07 14:39:10 INFO  : .minio.sys/buckets/landing-page/.usage-cache.bin.bkp: Set directory modification time (using SetModTime)
+2026/07/07 14:39:11 INFO  : .minio.sys/logs/api/disk.lock: Copied (new)
+2026/07/07 14:39:11 INFO  : .minio.sys/buckets/landing-page/.usage-cache.bin: Set directory modification time (using SetModTime)
+2026/07/07 14:39:13 INFO  : landing-page/public/screencapture-localhost-8000-id-programs-school-go-digital-2026-07-06-22_38_56.png/xl.meta: Copied (new)
+2026/07/07 14:39:15 INFO  : landing-page/public/screencapture-localhost-8000-id-programs-school-go-digital-2026-07-06-22_38_56.png/6f90863d-bbf6-4ff0-8576-320924dc202d/part.1: Copied (new)
+2026/07/07 14:39:17 INFO  : .minio.sys/buckets/landing-page/.usage-cache.bin.bkp/xl.meta: Copied (replaced existing)
+2026/07/07 14:39:18 INFO  : .minio.sys/buckets/landing-page/.usage-cache.bin/xl.meta: Copied (replaced existing)
+2026/07/07 14:40:02 INFO  : 
+Transferred:   	    1.680 MiB / 1.680 MiB, 100%, 114.675 KiB/s, ETA 0s
+Checks:               600 / 600, 100%, Listed 2924
+Transferred:            8 / 8, 100%
+Elapsed time:       1m0.0s
+
+2026/07/07 14:40:38 INFO  : landing-page/public/landingpage (1).sql/c7ab30f7-3687-4702-93a1-a62c34c8a95d/part.1: Deleted
+2026/07/07 14:40:38 INFO  : landing-page/public/landingpage (1).sql/xl.meta: Deleted
+2026/07/07 14:40:38 INFO  : .minio.sys/buckets/landing-page/.usage-cache.bin: Set directory modification time (using SetModTime)
+2026/07/07 14:40:38 INFO  : .minio.sys/buckets/landing-page/.usage-cache.bin.bkp: Set directory modification time (using SetModTime)
+2026/07/07 14:40:39 INFO  : landing-page/public/screencapture-localhost-8000-id-programs-school-go-digital-2026-07-06-22_38_56.png/6f90863d-bbf6-4ff0-8576-320924dc202d: Set directory modification time (using DirSetModTime)
+2026/07/07 14:40:39 INFO  : .minio.sys/buckets/.usage.json.bkp: Set directory modification time (using SetModTime)
+2026/07/07 14:40:39 INFO  : .minio.sys/buckets/.usage.json: Set directory modification time (using SetModTime)
+2026/07/07 14:40:39 INFO  : .minio.sys/logs/error: Set directory modification time (using DirSetModTime)
+2026/07/07 14:40:39 INFO  : .minio.sys/buckets/landing-page: Set directory modification time (using SetModTime)
+2026/07/07 14:40:39 INFO  : landing-page/public/screencapture-localhost-8000-id-programs-school-go-digital-2026-07-06-22_38_56.png: Set directory modification time (using DirSetModTime)
+2026/07/07 14:40:39 INFO  : .minio.sys/logs/api: Set directory modification time (using DirSetModTime)
+2026/07/07 14:40:40 INFO  : .minio.sys/logs: Set directory modification time (using DirSetModTime)
+2026/07/07 14:40:40 INFO  : .minio.sys/buckets: Set directory modification time (using SetModTime)
+2026/07/07 14:40:40 INFO  : landing-page/public: Set directory modification time (using SetModTime)
+2026/07/07 14:40:41 INFO  : landing-page: Set directory modification time (using SetModTime)
+2026/07/07 14:40:41 INFO  : .minio.sys: Set directory modification time (using SetModTime)
+2026/07/07 14:40:41 INFO  : landing-page/public/landingpage (1).sql/c7ab30f7-3687-4702-93a1-a62c34c8a95d: Removing directory
+2026/07/07 14:40:43 INFO  : landing-page/public/landingpage (1).sql: Removing directory
+2026/07/07 14:40:44 INFO  : 
+Transferred:   	    1.680 MiB / 1.680 MiB, 100%, 114.675 KiB/s, ETA 0s
+Checks:               948 / 948, 100%, Listed 3830
+Deleted:                2 (files), 2 (dirs), 1.066 MiB (freed)
+Transferred:            8 / 8, 100%
+Elapsed time:      1m41.8s
+
